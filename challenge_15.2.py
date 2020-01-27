@@ -88,7 +88,7 @@ class Game:
             return p1.name
         if p1.wins < p2.wins:
             return p2.name
-        return "引き分け！！"
+        return "引き分け！"
 
 game = Game()
 game.play_game()
